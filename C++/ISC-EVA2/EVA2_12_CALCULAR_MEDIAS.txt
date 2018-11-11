@@ -1,0 +1,53 @@
+//Nidia Gonzalez Morales 18550676
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    double edad, sum, med;
+    
+    edad = 0;
+    sum = 0;
+    cout << "Ingresa la edad 1" << endl;
+    cin >> edad;
+    sum += edad;
+    cout << "Ingresa la edad 2" << endl;
+    cin >> edad;
+    sum += edad;
+    cout << "Ingresa la edad 3" << endl;
+    cin >> edad;
+    sum += edad;
+    cout << "Ingresa la edad 4" << endl;
+    cin >> edad;
+    sum += edad;
+    cout << "Ingresa la edad 5" << endl;
+    cin >> edad;
+    sum = sum + edad;
+    med = sum / 5;
+    cout << med << endl;
+    return 0;
+}
+
+// The following implements type conversion functions.
+string toString (double value) { //int also
+    stringstream temp;
+    temp << value;
+    return temp.str();
+}
+
+int toInt (string text) {
+    return atoi(text.c_str());
+}
+
+double toDouble (string text) {
+    return atof(text.c_str());
+}
