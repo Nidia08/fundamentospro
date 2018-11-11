@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-04 09:52:42 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTEwLTA0OzA5OjA3OjU4IGEuIG0uOzI4OTM="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTEwLTA0OzA5OjUyOjQyIGEuIG0uOzU7Mjk5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Qu&#233; calificaci&#243;n tienes?&quot;" newline="True"/>
+            <declare name="iCal" type="Integer" array="False" size=""/>
+            <input variable="iCal"/>
+            <if expression="iCal == 100">
+                <then>
+                    <output expression="&quot;A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="iCal == 90">
+                        <then>
+                            <output expression="&quot;B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="iCal == 80">
+                                <then>
+                                    <output expression="&quot;C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="iCal == 70">
+                                        <then>
+                                            <output expression="&quot;D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="iCal == 60">
+                                                <then>
+                                                    <output expression="&quot;F&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Calificaci&#243;n fuera de rango&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

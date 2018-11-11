@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-31 09:06:15 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTMxOzA4OjQyOjM4IGEuIG0uOzI4ODg="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTMxOzA5OjA2OjE1IGEuIG0uOzI7Mjk5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad, sum, med" type="Real" array="False" size=""/>
+            <assign variable="edad" expression="0"/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;Ingresa la edad 1&quot;" newline="True"/>
+            <input variable="edad"/>
+            <assign variable="sum" expression="sum + edad"/>
+            <output expression="&quot;Ingresa la edad 2&quot;" newline="True"/>
+            <input variable="edad"/>
+            <assign variable="sum" expression="sum + edad"/>
+            <output expression="&quot;Ingresa la edad 3&quot;" newline="True"/>
+            <input variable="edad"/>
+            <assign variable="sum" expression="sum + edad"/>
+            <output expression="&quot;Ingresa la edad 4&quot;" newline="True"/>
+            <input variable="edad"/>
+            <assign variable="sum" expression="sum + edad"/>
+            <output expression="&quot;Ingresa la edad 5&quot;" newline="True"/>
+            <input variable="edad"/>
+            <assign variable="sum" expression="sum + edad"/>
+            <assign variable="med" expression="sum/5"/>
+            <output expression="med" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

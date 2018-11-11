@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-03 09:32:56 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTEwLTAzOzA5OjI1OjAxIGEuIG0uOzI4ODA="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTEwLTAzOzA5OjMyOjU2IGEuIG0uOzM7Mjk5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Qu&#233; edad tienes?&quot;" newline="True"/>
+            <declare name="iEdad" type="Integer" array="False" size=""/>
+            <input variable="iEdad"/>
+            <output expression="&quot;&#191;Tienes INE?&quot;" newline="True"/>
+            <declare name="bINE" type="Boolean" array="False" size=""/>
+            <input variable="bINE"/>
+            <if expression="iEdad &gt;= 18">
+                <then>
+                    <if expression="bINE == true">
+                        <then>
+                            <output expression="&quot;Puede entrar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;No puede pasar (2)&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;No puede entrar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-15 08:59:12 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTA5LTE5OzA4OjQ2OjU0IGEuIG0uOzI5MDU="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTA5LTE5OzA5OjMzOjA0IGEuIG0uOzM7MzAwNw=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTE1OzA4OjU5OjEyIGEuIG0uOzE7Mjk5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Que calificaci&#243;n obtuviste en Fundamentos de programaci&#243;n&quot;" newline="True"/>
+            <declare name="Cal" type="Real" array="False" size=""/>
+            <input variable="Cal"/>
+            <output expression="&quot;Tu calificaci&#243;n es &quot; &amp; Cal" newline="True"/>
+            <if expression="Cal &gt;= 70">
+                <then>
+                    <output expression="&quot;Pasaste&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprobaste&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-15 09:08:01 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTEwLTAzOzA5OjIwOjQxIGEuIG0uOzI4Nzk="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMzsyMDE4LTEwLTAzOzA5OjQ3OjI0IGEuIG0uOzQ7MzAwMA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTE1OzA5OjA4OjAxIGEuIG0uOzE7Mjk5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Tiene INE?&quot;" newline="True"/>
+            <declare name="bIne" type="Boolean" array="False" size=""/>
+            <input variable="bIne"/>
+            <if expression="bIne == true">
+                <then>
+                    <output expression="&quot;Si tiene INE&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No tiene INE&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
