@@ -1,0 +1,9 @@
+﻿print("Ingresa un número de año")
+iAnnio = int(input())
+if iAnnio % 4 == 0 and iAnnio % 100 != 0:
+    print("Es año bisiesto")
+else:
+    if iAnnio % 100 == 0 and iAnnio % 400 == 0:
+        print("Si es año bisiesto")
+    else:
+        print("No es año bisiesto")

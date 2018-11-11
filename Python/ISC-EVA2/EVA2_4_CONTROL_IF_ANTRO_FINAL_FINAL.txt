@@ -1,0 +1,21 @@
+'''
+
+Nidia González Morales 18550676
+
+'''
+
+print ('¿Cuál es tu edad?')
+
+iEdad = input()
+print ('¿Tienes INE?')
+
+bIne = input()
+
+
+if iEdad>= '18' and bIne == "si":
+    
+	print ('Puede pasar')
+
+else:
+    
+	print ('No puede pasar')

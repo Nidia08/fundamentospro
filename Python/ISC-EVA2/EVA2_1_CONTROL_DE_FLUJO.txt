@@ -1,0 +1,16 @@
+﻿
+print("Que calificación obtuviste en Fundamentos de programación")
+
+cal = float(input())
+
+print("Tu calificación es ")
+
+print(cal)
+
+if cal >= 70:
+    
+	print("Pasaste")
+
+else:
+    
+	print("Reprobaste")

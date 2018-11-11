@@ -1,0 +1,10 @@
+print("¿Tiene INE?")
+
+bIne = input()
+if bIne == "si":
+    print("Si tiene INE")
+else:
+    if bIne == "no":
+        print("No tiene INE")
+    else:
+        print("Valor invalido")

@@ -1,0 +1,8 @@
+//Nidia Gonzalez Morales 18550676
+materiasTerminadas = True
+servicio = True
+residencias = True
+if materiasTerminadas == True and servicio == True and residencias == True:
+    print("Si se puede titular")
+else:
+    print("No se puede titular")

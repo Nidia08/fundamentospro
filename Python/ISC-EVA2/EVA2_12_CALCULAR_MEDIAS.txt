@@ -1,0 +1,20 @@
+#Nidia Gonzalez Morales 18550676
+edad = 0
+sum = 0
+print("Ingresa la edad 1")
+edad = float(input())
+sum += edad
+print("Ingresa la edad 2")
+edad = float(input())
+sum += edad
+print("Ingresa la edad 3")
+edad = float(input())
+sum += edad
+print("Ingresa la edad 4")
+edad = float(input())
+sum += edad
+print("Ingresa la edad 5")
+edad = float(input())
+sum += edad
+med = sum / 5
+print(med)

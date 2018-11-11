@@ -1,0 +1,18 @@
+﻿print("¿Qué calificación tienes?")
+iCal = int(input())
+if iCal == 100:
+    print("A")
+else:
+    if iCal == 90:
+        print("B")
+    else:
+        if iCal == 80:
+            print("C")
+        else:
+            if iCal == 70:
+                print("D")
+            else:
+                if iCal == 60:
+                    print("F")
+                else:
+                    print("Calificación fuera de rango")
