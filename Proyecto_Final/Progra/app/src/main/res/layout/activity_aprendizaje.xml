@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Aprendizaje">
+
+
+        <TextView
+            android:id="@+id/pregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group"
+            android:layout_below="@+id/pregunta"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp">
+            <RadioButton
+                android:id="@+id/oU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:textSize="20dp"
+                android:text=""
+                android:layout_below="@+id/pregunta"
+                android:layout_centerHorizontal="true" />
+
+            <RadioButton
+                android:id="@+id/oD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:text=""
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/oT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text=""
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/sig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_below="@+id/group"
+            android:layout_toRightOf="@+id/group"
+            android:layout_toEndOf="@+id/group"
+            android:layout_marginTop="47dp" />
+    </LinearLayout>
+</ScrollView>
