@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-23 09:54:45 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTExLTIzOzA5OjI3OjM3IGEuIG0uOzI4OTM="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTExLTIzOzA5OjU0OjQ1IGEuIG0uOzY7MzAwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="iVal" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un n&#250;mero&quot;" newline="True"/>
+            <input variable="iVal"/>
+            <declare name="iRes" type="Integer" array="False" size=""/>
+            <assign variable="iRes" expression="calcularFactorial(iVal)"/>
+            <output expression="&quot;El resultado es &quot;&amp; iRes" newline="True"/>
+        </body>
+    </function>
+    <function name="calcularFactorial" type="Integer" variable="iFact">
+        <parameters>
+            <parameter name="iVal" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="iFact" type="Integer" array="False" size=""/>
+            <assign variable="iFact" expression="1"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <for variable="x" start="iVal" end="1" direction="dec" step="1">
+                <assign variable="iFact" expression="iFact*x"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
